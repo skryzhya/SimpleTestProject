@@ -1,6 +1,6 @@
 package test;
 
-public class Executable1 {
+public class AddedNewExecutable {
 
 	public static void main(String[] args) {
 		System.out.println("Added a brand new file to version control: GIT !");
