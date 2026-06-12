@@ -14,6 +14,8 @@ pipeline {
     stage("test"){
       steps{
         echo 'testing the application'
+        // On Linux/macOS use sh, on Windows use bat
+        // sh 'mvn clean test'
       }
     }
 
